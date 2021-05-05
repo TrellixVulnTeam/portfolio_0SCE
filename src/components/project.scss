@@ -1,0 +1,95 @@
+@import '../App.scss';
+* {
+	box-sizing: border-box;
+}
+#projects {
+	padding-top: 50px;
+}
+.sectionTitle {
+	text-align: center;
+	margin-top: 90px;
+	margin-bottom: 50px;
+	color: $color-green;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+	width: 100%;
+	height: 100%;
+	margin-bottom: 20px;
+	display: inline-flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.row {
+	overflow: hidden;
+	box-sizing: border-box;
+	margin: 20px;
+}
+/* Clear floats after the columns */
+.row:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.column .v-container {
+	width: 100%;
+	background-color: $color-black;
+	flex: 2;
+	margin: 0;
+	align-items: center;
+}
+.column .v-container iframe {
+	width: 80%;
+	border: 2px solid $color-white;
+}
+
+.column .content {
+	width: 50%;
+	flex: 1;
+	margin-right: 50px;
+}
+.content h1 {
+	color: $color-green;
+}
+.content {
+	background-color: $color-black;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 909px) {
+	.main-project {
+		margin-top: 100px;
+	}
+	.row {
+		margin: 0px;
+		padding: 0px;
+	}
+	.column {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		height: 100%;
+		margin: 20px;
+	}
+	.column .v-container {
+		flex: 1;
+	}
+	.column .v-container iframe {
+		width: 80vw;
+		margin-right: auto;
+	}
+
+	.column .content {
+		width: 70vw;
+		flex: 2;
+		margin: 20px;
+	}
+}
+@media screen and (max-width: 599px) {
+	.main-project {
+		margin-top: 100px;
+	}
+}

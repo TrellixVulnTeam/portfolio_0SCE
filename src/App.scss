@@ -1,0 +1,47 @@
+$primary: #f9fc2d;
+$secondary: #f4e409;
+$color-black: #000000;
+$color-white: #ffffff;
+$color-green: #00ff00;
+
+.App {
+	text-align: center;
+}
+* {
+	padding: 0;
+	margin: 0;
+	text-emphasis: none;
+	list-style: none;
+}
+
+body,
+html {
+	width: 100%;
+	height: calc(100vh-80px);
+	background-color: $color-black;
+
+	scroll-behavior: smooth;
+
+	color: $primary;
+}
+
+@media (max-width: 1200px) {
+	body,
+	html {
+		width: 100%;
+		height: calc(100vh-80px);
+
+		color: $primary;
+		background-color: $color-black;
+	}
+}
+@media (max-width: 520px) {
+	body,
+	html {
+		width: 100%;
+		height: 100px;
+
+		color: $primary;
+		background-color: $color-black;
+	}
+}

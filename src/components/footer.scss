@@ -1,0 +1,14 @@
+@import '../App.scss';
+
+.footer {
+	position: relative;
+	margin-bottom: 0;
+	background-color: $color-black;
+}
+
+@media (max-width: 909px) {
+	.footer {
+		margin-bottom: 50px;
+		margin-top: 50px;
+	}
+}
