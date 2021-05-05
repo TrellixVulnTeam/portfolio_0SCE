@@ -41,7 +41,7 @@ const Navbars = (props) =>
                         smooth to="/#home"
                         activeClassName="active"
                         className="navbar__link" >
-                        <img src="./favicon.ico"
+                        <img src="/portfolio/favicon.ico"
                             width="50"
                             height="50"
                             alt="logo" />

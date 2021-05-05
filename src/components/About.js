@@ -41,7 +41,7 @@ const About = () =>
                             data-aos-once="false"
                             data-aos-duration="3000">
                             <div className="icon">
-                                <img src="/images/download.png" alt="download"></img>
+                                <img src="/portfolio/images/download.png" alt="download"></img>
                             </div>
 
                             <span>Resume</span>
@@ -54,7 +54,7 @@ const About = () =>
                             data-aos-once="false"
                             data-aos-duration="3000" >
                             <div className="icon">
-                                <img src="/images/github.png" alt="github" />
+                                <img src="/portfolio/images/github.png" alt="github" />
                             </div>
 
 
@@ -68,7 +68,7 @@ const About = () =>
                             data-aos-once="false"
                             data-aos-duration="3000" >
                             <div className="icon">
-                                <img src="/images/youtube.png" alt="youtube" />
+                                <img src="/portfolio/images/youtube.png" alt="youtube" />
                             </div>
 
                             <span>YouTube</span>
@@ -82,7 +82,7 @@ const About = () =>
                             data-aos-duration="3000">
                             <div className="icon">
 
-                                <img src="/images/gmail.png" alt="gmail" />
+                                <img src="/portfolio/images/gmail.png" alt="gmail" />
                             </div>
 
                             <span>Gmail</span>
@@ -96,7 +96,7 @@ const About = () =>
                             data-aos-duration="3000">
                             <div className="icon">
 
-                                <img src="/images/linkedin.png" alt="linkedin" />
+                                <img src="/portfolio/images/linkedin.png" alt="linkedin" />
                             </div>
 
                             <span>LinkedIn</span>
@@ -175,36 +175,36 @@ const About = () =>
                             data-aos-duration="3000">
 
                             <div className="skillset">
-                                <img className="img-center" src="/icons/vscode.png" alt="vscode" />
+                                <img className="img-center" src="/portfolio/icons/vscode.png" alt="vscode" />
                                 <div className="item" style={{ animationDelay: "-1.5s" }}>
-                                    <img className="img-icon" src="/icons/html.png" alt="html" />
+                                    <img className="img-icon" src="/portfolio/icons/html.png" alt="html" />
                                 </div>
                                 <div className="item" style={{ animationDelay: "-3s" }}>
-                                    <img className="img-icon" src="/icons/css3.png" alt="css3" />
+                                    <img className="img-icon" src="/portfolio/icons/css3.png" alt="css3" />
                                 </div>
                                 <div className="item" style={{ animationDelay: "-4.5s" }}>
-                                    <img className="img-icon" src="/icons/js.png" alt="js" />
+                                    <img className="img-icon" src="/portfolio/icons/js.png" alt="js" />
                                 </div>
                                 <div className="item" style={{ animationDelay: "-6s" }}>
-                                    <img className="img-icon" src="/icons/jquery.png" alt="jquery" />
+                                    <img className="img-icon" src="/portfolio/icons/jquery.png" alt="jquery" />
                                 </div>
                                 <div className="item" style={{ animationDelay: "-7.5s" }}>
-                                    <img className="img-icon" src="/icons/mongodb.png" alt="mongodb" />
+                                    <img className="img-icon" src="/portfolio/icons/mongodb.png" alt="mongodb" />
                                 </div>
                                 <div className="item" style={{ animationDelay: "-9s" }}>
-                                    <img className="img-icon" src="/icons/mysql.png" alt="mysql" />
+                                    <img className="img-icon" src="/portfolio/icons/mysql.png" alt="mysql" />
                                 </div>
                                 <div className="item" style={{ animationDelay: "-10.5s" }}>
-                                    <img className="img-icon" src="/icons/nodejs.png" alt="nodejs" />
+                                    <img className="img-icon" src="/portfolio/icons/nodejs.png" alt="nodejs" />
                                 </div>
                                 <div className="item" style={{ animationDelay: "-12s" }}>
-                                    <img className="img-icon" src="/icons/php.png" alt="php" />
+                                    <img className="img-icon" src="/portfolio/icons/php.png" alt="php" />
                                 </div>
                                 <div className="item" style={{ animationDelay: "-13.5s" }}>
-                                    <img className="img-icon" src="/icons/react.png" alt="react" />
+                                    <img className="img-icon" src="/portfolio/icons/react.png" alt="react" />
                                 </div>
                                 <div className="item" style={{ animationDelay: "-15s" }}>
-                                    <img className="img-icon" src="/icons/bootstrap.png" alt="bootstrap" />
+                                    <img className="img-icon" src="/portfolio/icons/bootstrap.png" alt="bootstrap" />
                                 </div>
                             </div>
                         </div>
