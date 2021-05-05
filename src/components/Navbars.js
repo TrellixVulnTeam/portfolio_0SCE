@@ -38,7 +38,7 @@ const Navbars = (props) =>
                 <label className="logo">
                     <NavHashLink
                         exact
-                        smooth to="/#home"
+                        smooth to="/portfolio/#home"
                         activeClassName="active"
                         className="navbar__link" >
                         <img src="/portfolio/favicon.ico"
@@ -51,7 +51,7 @@ const Navbars = (props) =>
                     <li className="nav-lists">
                         <NavHashLink
                             exact
-                            smooth to="/#home"
+                            smooth to="/portfolio/#home"
                             activeClassName="active"
                             className="navbar__link" >
                             Home
@@ -59,7 +59,7 @@ const Navbars = (props) =>
                     </li>
                     <li className="nav-lists">
                         <NavHashLink
-                            smooth to="/#projects"
+                            smooth to="/portfolio/#projects"
                             activeClassName="active"
                             className="navbar__link"  >
                             Projects
@@ -67,7 +67,7 @@ const Navbars = (props) =>
                     </li>
                     <li className="nav-lists">
                         <NavHashLink
-                            smooth to="/#about"
+                            smooth to="/portfolio/#about"
                             activeClassName="active"
                             className="navbar__link" >
                             About
