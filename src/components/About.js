@@ -34,7 +34,7 @@ const About = () =>
                 </div>
 
                 <div className="wrapper">
-                    <a className="button" href="/Resume2021.pdf" download="HariniNatarajan_Resume.pdf">
+                    <a className="button" href="/portfolio/Resume2021.pdf" download="HariniNatarajan_Resume.pdf">
                         <div data-aos="flip-left" data-aos-anchor-placement="top-center"
                             data-aos-delay="150"
                             data-aos-mirror="true"
