@@ -30,57 +30,57 @@ const Navbars = (props) =>
 
     return (
 
-            <div className="nav-wrapper">
+        <div className="nav-wrapper">
 
-                <nav className={
-                    scrolled ? 'navbar sticky' : 'navbar'
-                }>
-                    <label className="logo">
+            <nav className={
+                scrolled ? 'navbar sticky' : 'navbar'
+            }>
+                <label className="logo">
+                    <NavHashLink
+                        exact
+                        smooth to="/#home"
+                        activeClassName="active"
+                        className="navbar__link" >
+                        <img src="./favicon.ico"
+                            width="50"
+                            height="50"
+                            alt="logo" />
+                    </NavHashLink>
+                </label>
+                <ul id="ul" className={isActive ? 'show' : null} onClick={toggleClass}>
+                    <li className="nav-lists">
                         <NavHashLink
                             exact
                             smooth to="/#home"
                             activeClassName="active"
                             className="navbar__link" >
-                            <img src="/favicon.ico"
-                                width="50"
-                                height="50"
-                                alt="logo" />
+                            Home
                         </NavHashLink>
-                    </label>
-                    <ul id="ul" className={isActive ? 'show' : null} onClick={toggleClass}>
-                        <li className="nav-lists">
-                            <NavHashLink
-                                exact
-                                smooth to="/#home"
-                                activeClassName="active"
-                                className="navbar__link" >
-                                Home
+                    </li>
+                    <li className="nav-lists">
+                        <NavHashLink
+                            smooth to="/#projects"
+                            activeClassName="active"
+                            className="navbar__link"  >
+                            Projects
                         </NavHashLink>
-                        </li>
-                        <li className="nav-lists">
-                            <NavHashLink
-                                smooth to="/#projects"
-                                activeClassName="active"
-                                className="navbar__link"  >
-                                Projects
+                    </li>
+                    <li className="nav-lists">
+                        <NavHashLink
+                            smooth to="/#about"
+                            activeClassName="active"
+                            className="navbar__link" >
+                            About
                         </NavHashLink>
-                        </li>
-                        <li className="nav-lists">
-                            <NavHashLink
-                                smooth to="/#about"
-                                activeClassName="active"
-                                className="navbar__link" >
-                                About
-                        </NavHashLink>
-                        </li>
-                    </ul>
-                    <label id="icon"
-                        onClick={toggleClass} >
-                        <i className="fas fa-bars"></i>
-                    </label>
-                </nav>
+                    </li>
+                </ul>
+                <label id="icon"
+                    onClick={toggleClass} >
+                    <i className="fas fa-bars"></i>
+                </label>
+            </nav>
 
-            </div>
+        </div>
 
 
     )

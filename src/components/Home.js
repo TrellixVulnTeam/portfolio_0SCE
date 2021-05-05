@@ -41,7 +41,7 @@ const Home = () =>
                     data-aos-once="false"
                     data-aos-duration="3000">
                     <div className="image-container">
-                        <img className="prof-image" src="/images/me.jpg" width="250px" height="300px" alt="me" />
+                        <img className="prof-image" src="./images/me.jpg" width="250px" height="300px" alt="me" />
                     </div>
                 </div>
                 <div data-aos="zoom-out-down"
