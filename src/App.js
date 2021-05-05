@@ -68,14 +68,14 @@ export class App extends Component
                   {/* <Route exact path="/" render={() => (<Redirect to="/#home" />)} /> */}
                   <Route
                     exact
-                    to="/"
+                    to="/portfolio/#home"
                   >
                     <Home />
                   </Route>
-                  <Route to="/#projects">
+                  <Route to="/portfolio/#projects">
                     <Project />
                   </Route>
-                  <Route to="/#about">
+                  <Route to="/portfolio/#about">
                     <About />
                   </Route>
                 </Switch>
