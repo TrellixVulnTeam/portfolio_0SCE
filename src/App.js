@@ -20,7 +20,7 @@ export class App extends Component
     setTimeout(function ()
     { //Start the timer
       this.setState({ isLoading: false }) //After 1 second, set render to true
-    }.bind(this), 1000)
+    }.bind(this), 100)
 
 
 
