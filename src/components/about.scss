@@ -2,6 +2,30 @@
 #about {
 	padding-top: 80px;
 }
+[data-aos='slide-right'] {
+	visibility: hidden;
+	&.aos-animate {
+		visibility: visible;
+	}
+}
+[data-aos='slide-left'] {
+	visibility: hidden;
+	&.aos-animate {
+		visibility: visible;
+	}
+}
+[data-aos='flip-left'] {
+	visibility: hidden;
+	&.aos-animate {
+		visibility: visible;
+	}
+}
+[data-aos='flip-down'] {
+	visibility: hidden;
+	&.aos-animate {
+		visibility: visible;
+	}
+}
 .sectionTitle {
 	text-align: center;
 	margin-top: 20px;
