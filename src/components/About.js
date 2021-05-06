@@ -109,8 +109,7 @@ const About = () =>
                                 <div data-aos="slide-right" data-aos-anchor-placement="center-bottom"
                                     data-aos-delay="150"
                                     data-aos-mirror="true"
-                                    data-aos-once="false"
-                                    data-aos-duration="3000">
+                                    data-aos-once="false">
                                     <Card.Text>
                                         I hold MS Degree in Computer Science (Malmo University, Sweden).
                                 <a href="https://muep.mau.se/bitstream/handle/2043/23169/master-thesis_Rashmi_Natarajan_D2.pdf?sequence=2&isAllowed=y"> Master Thesis </a>  @ Axis Communications, Lund Sweden.
@@ -121,8 +120,7 @@ const About = () =>
                                     <div data-aos="slide-right"
                                         data-aos-delay="150"
                                         data-aos-mirror="true"
-                                        data-aos-once="false"
-                                        data-aos-duration="3000">
+                                        data-aos-once="false">
                                         <div className="list">
 
                                             <svg className="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
@@ -134,8 +132,7 @@ const About = () =>
                                     <div data-aos="slide-right"
                                         data-aos-delay="150"
                                         data-aos-mirror="true"
-                                        data-aos-once="false"
-                                        data-aos-duration="3000">
+                                        data-aos-once="false">
                                         <div className="list">
 
                                             <svg className="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
@@ -147,8 +144,7 @@ const About = () =>
                                     <div data-aos="slide-right"
                                         data-aos-delay="150"
                                         data-aos-mirror="true"
-                                        data-aos-once="false"
-                                        data-aos-duration="3000">
+                                        data-aos-once="false">
                                         <div className="list">
 
                                             <svg className="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
