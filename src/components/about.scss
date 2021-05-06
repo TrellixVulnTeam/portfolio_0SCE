@@ -377,7 +377,7 @@
 	}
 	.about-container {
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
 		justify-content: center;
 		align-items: center;
 	}
@@ -387,7 +387,7 @@
 		margin-top: 60px;
 	}
 	.skills {
-		margin-top: 400px;
+		margin-top: 700px;
 		margin-bottom: 80px;
 	}
 	.img-center {
