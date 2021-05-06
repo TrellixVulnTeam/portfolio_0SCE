@@ -13,11 +13,7 @@ const About = () =>
             duration: 2000,
             once: false,
             mirror: true,
-            disable: function ()
-            {
-                var maxWidth = 599;
-                return window.innerWidth < maxWidth;
-            }
+
         });
     }, []);
     return (

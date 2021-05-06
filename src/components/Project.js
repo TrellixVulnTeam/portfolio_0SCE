@@ -14,11 +14,7 @@ export class Project extends Component {
 			once: false,
 			mirror: true,
 			anchorPlacement: 'top-top',
-			 disable: function ()
-            {
-                var maxWidth = 599;
-                return window.innerWidth < maxWidth;
-            }
+			
 		});
 	}
 	render() {
