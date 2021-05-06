@@ -369,13 +369,19 @@
 	}
 }
 @media screen and (max-width: 599px) {
+	.main-about {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
 	.skillset {
 		width: 300px;
 		height: 500px;
 		margin-top: 0px;
 	}
 	.skills {
-		margin-top: 50px;
+		margin-bottom: 80px;
 	}
 	.img-center {
 		width: 30px;
@@ -407,8 +413,17 @@
 	.skill-head {
 		color: $color-green;
 	}
+	.wrapper {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
 	.wrapper .button .icon img {
 		height: 50px;
 		width: 50px;
+	}
+	.about-container {
+		margin-top: 170px;
 	}
 }
