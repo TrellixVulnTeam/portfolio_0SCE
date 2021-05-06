@@ -20,7 +20,7 @@ const About = () =>
         <div id="about">
             <div className="main-about" >
                 <div className="sectionTitle">
-                    <div data-aos="slide-left" data-aos-delay="100" data-aos-anchor-placement="top-center"
+                    <div data-aos="slide-left" data-aos-delay="100" data-aos-anchor-placement="center-bottom"
                         data-aos-delay="150"
                         data-aos-mirror="true"
                         data-aos-once="false"
@@ -31,7 +31,7 @@ const About = () =>
 
                 <div className="wrapper">
                     <a className="button" href="/portfolio/Resume2021.pdf" download="HariniNatarajan_Resume.pdf">
-                        <div data-aos="flip-left" data-aos-anchor-placement="top-center"
+                        <div data-aos="flip-left" data-aos-anchor-placement="center-bottom"
                             data-aos-delay="150"
                             data-aos-mirror="true"
                             data-aos-once="false"
@@ -44,7 +44,7 @@ const About = () =>
                         </div>
                     </a>
                     <a className="button" href="https://github.com/Hariniharidass" target='_blank' rel="noopener noreferrer">
-                        <div data-aos="flip-left" data-aos-anchor-placement="top-center"
+                        <div data-aos="flip-left" data-aos-anchor-placement="center-bottom"
                             data-aos-delay="150"
                             data-aos-mirror="true"
                             data-aos-once="false"
@@ -58,7 +58,7 @@ const About = () =>
                         </div>
                     </a>
                     <a className="button" href="https://www.youtube.com/channel/UCHjVuo0D4zS8lQ0sZMddA9g" target='_blank' rel="noopener noreferrer">
-                        <div data-aos="flip-left" data-aos-anchor-placement="top-center"
+                        <div data-aos="flip-left" data-aos-anchor-placement="center-bottom"
                             data-aos-delay="150"
                             data-aos-mirror="true"
                             data-aos-once="false"
@@ -71,7 +71,7 @@ const About = () =>
                         </div>
                     </a>
                     <a className="button" href="mailto:hello2harinihari@gmail.com" target='_blank' rel="noopener noreferrer">
-                        <div data-aos="flip-left" data-aos-anchor-placement="top-center"
+                        <div data-aos="flip-left" data-aos-anchor-placement="center-bottom"
                             data-aos-delay="150"
                             data-aos-mirror="true"
                             data-aos-once="false"
@@ -85,7 +85,7 @@ const About = () =>
                         </div>
                     </a>
                     <a className="button" href="https://www.linkedin.com/in/harini-natarajan-854b9510a/" target='_blank' rel="noopener noreferrer">
-                        <div data-aos="flip-left" data-aos-anchor-placement="top-center"
+                        <div data-aos="flip-left" data-aos-anchor-placement="center-bottom"
                             data-aos-delay="150"
                             data-aos-mirror="true"
                             data-aos-once="false"
@@ -106,7 +106,7 @@ const About = () =>
                     <div className="education">
                         <Card>
                             <Card.Body>
-                                <div data-aos="slide-right" data-aos-anchor-placement="top-center"
+                                <div data-aos="slide-right" data-aos-anchor-placement="center-bottom"
                                     data-aos-delay="150"
                                     data-aos-mirror="true"
                                     data-aos-once="false"
@@ -165,7 +165,7 @@ const About = () =>
 
                     <div className="skills">
                         <h2 className="skill-head">Technical Skills</h2>
-                        <div data-aos="flip-down" data-aos-delay="300" data-aos-anchor-placement="top-center"
+                        <div data-aos="flip-down" data-aos-delay="300" data-aos-anchor-placement="center-bottom"
                             data-aos-mirror="true"
                             data-aos-once="false"
                             data-aos-duration="3000">
