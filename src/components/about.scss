@@ -101,9 +101,9 @@
 }
 
 .card {
+	background: $color-black;
 	text-align: justify;
 	font-size: 25px;
-	z-index: 10;
 }
 .card-text a {
 	text-decoration: none;
@@ -251,9 +251,6 @@
 	.education {
 		margin-bottom: 10px;
 	}
-	.card-body {
-		z-index: 10;
-	}
 	.about-container {
 		flex-direction: row;
 	}
@@ -300,9 +297,6 @@
 @media screen and (min-width: 910px) and (max-width: 1024px) {
 	.about-container {
 		flex-direction: column;
-	}
-	.card-body {
-		z-index: 10;
 	}
 	.skillset {
 		margin: 10px;
@@ -385,7 +379,5 @@
 		height: 50px;
 		width: 50px;
 	}
-	.card-body {
-		z-index: 10;
-	}
+	
 }
