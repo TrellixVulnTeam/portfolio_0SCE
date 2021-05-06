@@ -33,6 +33,7 @@
 	cursor: pointer;
 	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
 	transition: all 0.3s ease-in-out;
+	backface-visibility: hidden;
 }
 .wrapper .button:hover {
 	width: 200px;
@@ -48,6 +49,7 @@
 	border-radius: 50px;
 	background: $color-white;
 	transition: all 0.3s ease-in-out;
+	backface-visibility: hidden;
 }
 .wrapper .button:hover .icon {
 	background: $color-white;
@@ -58,12 +60,14 @@
 	font-size: 25px;
 	line-height: 75px;
 	transition: all 0.3s ease-in-out;
+	backface-visibility: hidden;
 }
 .wrapper .button:hover .icon img {
 	color: $color-black;
 	font-size: 25px;
 	line-height: 75px;
 	transition: all 0.3s ease-in-out;
+	backface-visibility: hidden;
 }
 .icon img {
 	border-radius: 20px;
@@ -74,6 +78,7 @@
 	line-height: 75px;
 	margin-left: 10px;
 	transition: all 0.3s ease-in-out;
+	backface-visibility: hidden;
 }
 .wrapper .button:hover span {
 	color: $color-black;
@@ -129,6 +134,7 @@
 	stroke: #7ac142;
 	fill: none;
 	animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+	backface-visibility: hidden;
 }
 
 .checkmark {
@@ -142,6 +148,7 @@
 	box-shadow: inset 0px 0px 0px #7ac142;
 	animation: fill 0.4s ease-in-out 0.4s forwards,
 		scale 0.3s ease-in-out 0.9s both;
+	backface-visibility: hidden;
 }
 
 .checkmark__check {
@@ -149,6 +156,7 @@
 	stroke-dasharray: 48;
 	stroke-dashoffset: 48;
 	animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+	backface-visibility: hidden;
 }
 
 @keyframes stroke {
@@ -379,5 +387,4 @@
 		height: 50px;
 		width: 50px;
 	}
-	
 }
