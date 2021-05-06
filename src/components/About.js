@@ -106,7 +106,7 @@ const About = () =>
                     <div className="education">
                         <Card>
                             <Card.Body>
-                                <div data-aos="slide-left" data-aos-anchor-placement="top-center"
+                                <div data-aos="slide-right" data-aos-anchor-placement="top-center"
                                     data-aos-delay="150"
                                     data-aos-mirror="true"
                                     data-aos-once="false"
