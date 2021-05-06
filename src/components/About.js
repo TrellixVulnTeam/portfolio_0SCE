@@ -165,7 +165,7 @@ const About = () =>
 
                     <div className="skills">
                         <h2 className="skill-head">Technical Skills</h2>
-                        <div data-aos="flip-down" data-aos-delay="300" data-aos-anchor-placement="bottom-bottom"
+                        <div data-aos="flip-down" data-aos-delay="300" data-aos-anchor-placement="top-bottom"
                             data-aos-mirror="true"
                             data-aos-once="false"
                             data-aos-duration="3000">
