@@ -87,10 +87,6 @@
 		flex: 2;
 		margin: 20px;
 	}
-	.content[data-aos='slide-right'] {
-		-webkit-transform: translateX(0);
-		transform: translateX(0);
-	}
 }
 @media screen and (max-width: 599px) {
 	.main-project {
