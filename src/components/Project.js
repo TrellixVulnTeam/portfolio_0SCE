@@ -4,20 +4,23 @@ import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
 import YouTube from 'react-youtube';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
-export class Project extends Component {
-	componentDidMount() {
+export class Project extends Component
+{
+	componentDidMount()
+	{
 		// or simply just AOS.init();
 		AOS.init({
 			// initialise with other settings
-			disable: 'mobile' ,
+			disable: 'mobile',
 			duration: 2000,
 			once: false,
 			mirror: true,
 			anchorPlacement: 'top-top',
-			
+
 		});
 	}
-	render() {
+	render()
+	{
 		const opts = {
 			height: '350',
 			width: '400',
@@ -44,7 +47,7 @@ export class Project extends Component {
 							<div className="v-container">
 								<div
 									data-aos="zoom-in"
-									data-aos-anchor-placement="bottom-bottom"
+									data-aos-anchor-placement="center-bottom"
 									data-aos-delay="50"
 									data-aos-mirror="true"
 									data-aos-once="false"
@@ -61,7 +64,7 @@ export class Project extends Component {
 							<div className="content">
 								<div
 									data-aos="slide-right"
-									data-aos-anchor-placement="top-center"
+									data-aos-anchor-placement="center-bottom"
 									data-aos-delay="50"
 									data-aos-mirror="true"
 									data-aos-once="false"
@@ -79,7 +82,7 @@ export class Project extends Component {
 							<div className="v-container">
 								<div
 									data-aos="zoom-in"
-									data-aos-anchor-placement="top-center"
+									data-aos-anchor-placement="center-bottom"
 									data-aos-delay="50"
 									data-aos-mirror="true"
 									data-aos-once="false"
@@ -95,7 +98,7 @@ export class Project extends Component {
 							<div className="content">
 								<div
 									data-aos="slide-right"
-									data-aos-anchor-placement="top-center"
+									data-aos-anchor-placement="center-bottom"
 									data-aos-delay="50"
 									data-aos-mirror="true"
 									data-aos-once="false"
@@ -115,7 +118,7 @@ export class Project extends Component {
 							<div className="v-container">
 								<div
 									data-aos="zoom-in"
-									data-aos-anchor-placement="top-center"
+									data-aos-anchor-placement="center-bottom"
 									data-aos-delay="150"
 									data-aos-mirror="true"
 									data-aos-once="false"
@@ -131,7 +134,7 @@ export class Project extends Component {
 							<div className="content">
 								<div
 									data-aos="slide-right"
-									data-aos-anchor-placement="top-center"
+									data-aos-anchor-placement="center-bottom"
 									data-aos-delay="150"
 									data-aos-mirror="true"
 									data-aos-once="false"
@@ -152,7 +155,7 @@ export class Project extends Component {
 							<div className="v-container">
 								<div
 									data-aos="zoom-in"
-									data-aos-anchor-placement="top-center"
+									data-aos-anchor-placement="center-bottom"
 									data-aos-delay="150"
 									data-aos-mirror="true"
 									data-aos-once="false"
@@ -168,7 +171,7 @@ export class Project extends Component {
 							<div className="content">
 								<div
 									data-aos="slide-right"
-									data-aos-anchor-placement="top-center"
+									data-aos-anchor-placement="center-bottom"
 									data-aos-delay="150"
 									data-aos-mirror="true"
 									data-aos-once="false"
@@ -196,7 +199,7 @@ export class Project extends Component {
 							<div className="v-container">
 								<div
 									data-aos="zoom-in"
-									data-aos-anchor-placement="top-center"
+									data-aos-anchor-placement="center-bottom"
 									data-aos-delay="150"
 									data-aos-mirror="true"
 									data-aos-once="false"
@@ -212,7 +215,7 @@ export class Project extends Component {
 							<div className="content">
 								<div
 									data-aos="slide-right"
-									data-aos-anchor-placement="top-center"
+									data-aos-anchor-placement="center-bottom"
 									data-aos-delay="150"
 									data-aos-mirror="true"
 									data-aos-once="false"
@@ -244,7 +247,7 @@ export class Project extends Component {
 							<div className="v-container">
 								<div
 									data-aos="zoom-in"
-									data-aos-anchor-placement="top-center"
+									data-aos-anchor-placement="center-bottom"
 									data-aos-delay="450"
 									data-aos-mirror="true"
 									data-aos-once="false"
@@ -260,7 +263,7 @@ export class Project extends Component {
 							<div className="content">
 								<div
 									data-aos="slide-right"
-									data-aos-anchor-placement="top-center"
+									data-aos-anchor-placement="center-bottom"
 									data-aos-delay="450"
 									data-aos-mirror="true"
 									data-aos-once="false"
@@ -285,7 +288,7 @@ export class Project extends Component {
 							<div className="v-container">
 								<div
 									data-aos="zoom-in"
-									data-aos-anchor-placement="top-center"
+									data-aos-anchor-placement="center-bottom"
 									data-aos-delay="550"
 									data-aos-mirror="true"
 									data-aos-once="false"
@@ -301,7 +304,7 @@ export class Project extends Component {
 							<div className="content">
 								<div
 									data-aos="slide-right"
-									data-aos-anchor-placement="top-center"
+									data-aos-anchor-placement="center-bottom"
 									data-aos-delay="550"
 									data-aos-mirror="true"
 									data-aos-once="false"
@@ -325,7 +328,7 @@ export class Project extends Component {
 							<div className="v-container">
 								<div
 									data-aos="zoom-in"
-									data-aos-anchor-placement="top-center"
+									data-aos-anchor-placement="center-bottom"
 									data-aos-delay="650"
 									data-aos-mirror="true"
 									data-aos-once="false"
@@ -341,7 +344,7 @@ export class Project extends Component {
 							<div className="content">
 								<div
 									data-aos="slide-right"
-									data-aos-anchor-placement="top-center"
+									data-aos-anchor-placement="center-bottom"
 									data-aos-delay="650"
 									data-aos-mirror="true"
 									data-aos-once="false"
@@ -362,7 +365,8 @@ export class Project extends Component {
 			</div>
 		);
 	}
-	_onReady(event) {
+	_onReady(event)
+	{
 		// access to player in all event handlers via event.target
 		event.target.pauseVideo();
 	}

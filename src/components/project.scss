@@ -2,6 +2,19 @@
 * {
 	box-sizing: border-box;
 }
+[data-aos='slide-right'] {
+	visibility: hidden;
+	&.aos-animate {
+		visibility: visible;
+	}
+}
+[data-aos='zoom-in'] {
+	visibility: hidden;
+	&.aos-animate {
+		visibility: visible;
+	}
+}
+
 #projects {
 	padding-top: 50px;
 }

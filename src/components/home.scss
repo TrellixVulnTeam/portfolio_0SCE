@@ -1,4 +1,22 @@
 @import '../App.scss';
+[data-aos='flip-left'] {
+	visibility: hidden;
+	&.aos-animate {
+		visibility: visible;
+	}
+}
+[data-aos='zoom-out-down'] {
+	visibility: hidden;
+	&.aos-animate {
+		visibility: visible;
+	}
+}
+[data-aos='slide-right'] {
+	visibility: hidden;
+	&.aos-animate {
+		visibility: visible;
+	}
+}
 #home {
 	padding-top: 120px;
 }
