@@ -413,6 +413,8 @@
 	.skill-head {
 		color: $color-green;
 		display: block;
+		margin-top: 50px;
+		z-index: 10;
 	}
 	.wrapper {
 		display: flex;
