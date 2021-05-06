@@ -375,6 +375,12 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.about-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
 	.skillset {
 		width: 300px;
 		height: 500px;
@@ -412,9 +418,7 @@
 	}
 	.skill-head {
 		color: $color-green;
-		display: block;
 		margin-top: 50px;
-		z-index: 10;
 	}
 	.wrapper {
 		display: flex;
@@ -425,9 +429,5 @@
 	.wrapper .button .icon img {
 		height: 50px;
 		width: 50px;
-	}
-
-	.education {
-		padding: 40px;
 	}
 }
