@@ -251,6 +251,8 @@
 	}
 	.education {
 		margin-bottom: 10px;
+	}
+	.card-body {
 		z-index: 10;
 	}
 	.about-container {
@@ -299,6 +301,8 @@
 @media screen and (min-width: 910px) and (max-width: 1024px) {
 	.about-container {
 		flex-direction: column;
+	}
+	.card-body {
 		z-index: 10;
 	}
 	.skillset {
@@ -381,5 +385,8 @@
 	.wrapper .button .icon img {
 		height: 50px;
 		width: 50px;
+	}
+	.card-body {
+		z-index: 10;
 	}
 }
