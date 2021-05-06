@@ -412,6 +412,7 @@
 	}
 	.skill-head {
 		color: $color-green;
+		display: block;
 	}
 	.wrapper {
 		display: flex;
@@ -423,7 +424,8 @@
 		height: 50px;
 		width: 50px;
 	}
-	.about-container {
-		margin-top: 70px;
+
+	.education {
+		padding: 40px;
 	}
 }
