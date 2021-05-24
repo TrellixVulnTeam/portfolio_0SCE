@@ -48,6 +48,95 @@ export class Project extends Component
 								<div
 									data-aos="zoom-in"
 									data-aos-anchor-placement="center-bottom"
+									data-aos-delay="550"
+									data-aos-mirror="true"
+									data-aos-once="false"
+									data-aos-duration="3000"
+								>
+									<YouTube
+										videoId="dTqmxKUfx3Y"
+										opts={opts}
+										onReady={this._onReady}
+									/>
+								</div>
+							</div>
+							<div className="content">
+								<div
+									data-aos="slide-right"
+									data-aos-anchor-placement="center-bottom"
+									data-aos-delay="550"
+									data-aos-mirror="true"
+									data-aos-once="false"
+									data-aos-duration="3000"
+								>
+									<h1>Blurry Tool</h1>
+									<p>
+
+										An image blurring application using
+										ReactJS. Utilizes HTML Canvas to allow
+										user blur certain region on mouse drag.
+										User can clear blurs on image and also
+										can download the image.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className="row">
+						<div className="column">
+							<div className="v-container">
+								<div
+									data-aos="zoom-in"
+									data-aos-anchor-placement="center-bottom"
+									data-aos-delay="150"
+									data-aos-mirror="true"
+									data-aos-once="false"
+									data-aos-duration="3000"
+								>
+									<YouTube
+										videoId="bJKNInkGA2U"
+										opts={opts}
+										onReady={this._onReady}
+									/>
+								</div>
+							</div>
+							<div className="content">
+								<div
+									data-aos="slide-right"
+									data-aos-anchor-placement="center-bottom"
+									data-aos-delay="150"
+									data-aos-mirror="true"
+									data-aos-once="false"
+									data-aos-duration="3000"
+								>
+									<h1>Auctioner</h1>
+									<p>
+										Auction website using ExpressJS, MySQL
+										and Handlebars. Utilised Fashe theme
+										from colorlib. User login and
+										registration validated and uses
+										PassportJS and password hashes and
+										stored in DB using Bcrypt-NodeJS. Only
+										logged-in user can make bids. Prevents
+										the Cross-Site Request Forgery(CSRF)
+										attack by using CSURF module. Success
+										and error messages displayed using
+										connect-flash. User can add,update
+										delete products to sell and also make
+										bids. Password forgot/reset option via
+										sendgrid implemented.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div className="row">
+						<div className="column">
+							<div className="v-container">
+								<div
+									data-aos="zoom-in"
+									data-aos-anchor-placement="center-bottom"
 									data-aos-delay="50"
 									data-aos-mirror="true"
 									data-aos-once="false"
@@ -200,54 +289,6 @@ export class Project extends Component
 								<div
 									data-aos="zoom-in"
 									data-aos-anchor-placement="center-bottom"
-									data-aos-delay="150"
-									data-aos-mirror="true"
-									data-aos-once="false"
-									data-aos-duration="3000"
-								>
-									<YouTube
-										videoId="bJKNInkGA2U"
-										opts={opts}
-										onReady={this._onReady}
-									/>
-								</div>
-							</div>
-							<div className="content">
-								<div
-									data-aos="slide-right"
-									data-aos-anchor-placement="center-bottom"
-									data-aos-delay="150"
-									data-aos-mirror="true"
-									data-aos-once="false"
-									data-aos-duration="3000"
-								>
-									<h1>Auctioner</h1>
-									<p>
-										Auction website using ExpressJS, MySQL
-										and Handlebars. Utilised Fashe theme
-										from colorlib. User login and
-										registration validated and uses
-										PassportJS and password hashes and
-										stored in DB using Bcrypt-NodeJS. Only
-										logged-in user can make bids. Prevents
-										the Cross-Site Request Forgery(CSRF)
-										attack by using CSURF module. Success
-										and error messages displayed using
-										connect-flash. User can add,update
-										delete products to sell and also make
-										bids. Password forgot/reset option via
-										sendgrid implemented.
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div className="row">
-						<div className="column">
-							<div className="v-container">
-								<div
-									data-aos="zoom-in"
-									data-aos-anchor-placement="center-bottom"
 									data-aos-delay="450"
 									data-aos-mirror="true"
 									data-aos-once="false"
@@ -278,46 +319,6 @@ export class Project extends Component
 										Registration and Login forms with
 										validation. User can change password,
 										profile photo in profile page.
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div className="row">
-						<div className="column">
-							<div className="v-container">
-								<div
-									data-aos="zoom-in"
-									data-aos-anchor-placement="center-bottom"
-									data-aos-delay="550"
-									data-aos-mirror="true"
-									data-aos-once="false"
-									data-aos-duration="3000"
-								>
-									<YouTube
-										videoId="dTqmxKUfx3Y"
-										opts={opts}
-										onReady={this._onReady}
-									/>
-								</div>
-							</div>
-							<div className="content">
-								<div
-									data-aos="slide-right"
-									data-aos-anchor-placement="center-bottom"
-									data-aos-delay="550"
-									data-aos-mirror="true"
-									data-aos-once="false"
-									data-aos-duration="3000"
-								>
-									<h1>Blurry Tool</h1>
-									<p>
-
-										An image blurring application using
-										ReactJS. Utilizes HTML Canvas to allow
-										user blur certain region on mouse drag.
-										User can clear blurs on image and also
-										can download the image.
 									</p>
 								</div>
 							</div>
